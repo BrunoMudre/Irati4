@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+
+.cabecalho{
+    position: fixed;
+    width: 100%;
+    background-color: #026773;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 140%;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    text-align: left;
+    width: fit-content;
+    margin: 3%;
+}
+
+.logo{
+    font-family: papyrus;
+    font-size: 170%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0%;
+    width: auto;
+    padding-top: 1%;
+}
+
+.links{
+    text-align: right;
+    padding: 3%;
+}
+
+span{
+    padding-bottom: 1%;
+}
+
+.cabecalho a:hover{
+    border-bottom: solid 3px red;
+    border-radius: 5%;
+    color: rgb(218, 215, 215);
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 130%;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    border-bottom: solid 4px #3CA6A6 ;
+    margin-top: 10%;
+}
+
+.texto{
+    width: 70%;
+    text-align: justify;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 50%;
+
+}
+
+.fundo1{
+    opacity: 35%;
+    position: absolute;
+    top: 130%;
+    left: 0;
+}
+
+.fundo2{
+    opacity: 35%;
+    position: absolute;
+    right: 0;
+    top: 130%;
+}
+
+footer{ 
+    background-color: #012E40;
+    padding: 1% 20% 1% 20%;
+    text-align: center;
+    margin: 0;
+    width: 60%;
+    position: absolute;
+    top: 210%;
+}
+
+.rodape{
+    color: rgb(148, 168, 189);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.bloco1{
+    border-right: solid 1px rgb(148, 168, 189);
+    padding-right: 20%;
+}
+
+.bloco2{
+    border-left: solid 1px rgb(148, 168, 189);
+    padding-left: 20%;
+}
+
+.bloco2 a:visited{
+    color: rgb(148, 168, 189);
+}
+
+.bloco2 a{
+    text-decoration: none;
+}
+
+
+
